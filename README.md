@@ -28,6 +28,15 @@ Write a brief report that includes a summary and analysis of the performance of 
 
 Structure the report by using the report template that `Starter_Code.zip` includes, ensuring that it contains the following:
 1. <b>An overview of the analysis:</b> Explain the purpose of this analysis.
+
+
+
 2. <b>The results:</b> Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
+
+
+
 3. <b>A summary:</b> Summarize the results from the machine learning model. Include the justification for recommending the model for use by the company. If the model is not recommended, the reasoning must be justified.
+
+
+
 
