@@ -26,7 +26,8 @@ The requirements for this Challenge are divided into the following subsections:
 # 3. Write a Credit Risk Analysis Report
 Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. This report should be written as the README.md file included in the GitHub repository.
 
-Structure your report by using the report template that `Starter_Code.zip` includes, ensuring that it contains the following:
+Structure the report by using the report template that `Starter_Code.zip` includes, ensuring that it contains the following:
 1. <b>An overview of the analysis:</b> Explain the purpose of this analysis.
-2. The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
-3. A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
+2. <b>The results:</b> Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
+3. <b>A summary:</b> Summarize the results from the machine learning model. Include the justification for recommending the model for use by the company. If the model is not recommended, the reasoning must be justified.
+
