@@ -29,7 +29,7 @@ Write a brief report that includes a summary and analysis of the performance of 
 Structure the report by using the report template that `Starter_Code.zip` includes, ensuring that it contains the following:
 1. <b>An overview of the analysis:</b> Explain the purpose of this analysis.
 In this section, describe the analysis completed for the machine learning models used in this Challenge. This might include:
-* Explain the purpose of the analysis.
+* Explain the purpose of the analysis - Thge purpose of this analysis is to use various techniques to train and evaluate a model based on loan risk, using a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 * Explain what financial information the data was on, and what you needed to predict.
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
