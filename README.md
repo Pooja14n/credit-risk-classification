@@ -27,13 +27,11 @@ The requirements for this Challenge are divided into the following subsections:
 Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. This report should be written as the README.md file included in the GitHub repository.
 
 Structure the report by using the report template that `Starter_Code.zip` includes, ensuring that it contains the following:
-1. <b>An overview of the analysis:</b> Explain the purpose of this analysis.
-In this section, describe the analysis completed for the machine learning models used in this Challenge. This might include:
-
+1. <b>An overview of the analysis:</b> 
 * Explain the purpose of the analysis - The purpose of this analysis is to use various techniques to train and evaluate a model based on loan risk, using a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 * Explain what financial information the data was on, and what you needed to predict - The financial information the data were on are: loan size, interest rate, borrower-to-income, debt-to-income, num of accounts, derogatory marks, total debt, and loan status; wherein loan status is the target and the remaining are the features.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`) - A value of 0 (value count is <b>75036</b>) in the target (loan_status) means that the loan is healthy and a value of 1 (value count is <b>2500</b>) means that the loan has a high risk of defaulting.
-* Describe the stages of the machine learning process you went through as part of this analysis -
+* Provide basic information about the variables that are being tried to predict (e.g., `value_counts`) - A value of 0 (value count is <b>75036</b>) in the target (loan_status) means that the loan is healthy and a value of 1 (value count is <b>2500</b>) means that the loan has a high risk of defaulting.
+* Describe the stages of the machine learning process gone through as part of this analysis -
   a. Create the labels set and then create the features DataFrame from the remaining columns.
   b. Split the data into training and testing datasets by using train_test_split.
   c. Create a Logistic Regression Model with the Original Data.
@@ -45,12 +43,11 @@ In this section, describe the analysis completed for the machine learning models
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms) - The method used on the original fitted data in this case is LogisticRegression model, which is a classification model. 
   
 2. <b>The results:</b> Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 * Machine Learning Model 1:
     * Description of Model 1 Accuracy, Precision, and Recall scores.
+      
 
 3. <b>A summary:</b> Summarize the results from the machine learning model. Include the justification for recommending the model for use by the company. If the model is not recommended, the reasoning must be justified.
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do we know it performs best?
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 If none of the models are recommended, please justify the reasoning.
