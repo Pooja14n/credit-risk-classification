@@ -40,7 +40,7 @@ Structure the report by using the report template that `Starter_Code.zip` includ
      (iii) Evaluate the model’s performance by doing the following:
            -> Generate a confusion matrix.
            -> Print the classification report.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms) - The method used on the original fitted data in this case is LogisticRegression model, which is a classification model. 
+* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms) - The method used on the original fitted data in this case is LogisticRegression model, which is a statistical method for predicting binary outcomes from data. This model can be used to predict which category or class a new data point should go into.
   
 2. <b>The results:</b> Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 * Machine Learning Model 1:
