@@ -71,5 +71,8 @@ Structure the report by using the report template that `Starter_Code.zip` includ
        * For `0`: 17,958 <br>
        * For `1`: 18,109 <br>
 
-As the data was highly overweighted towards one of the target variables (healthy loans).
+There is a high imbalance of data as it is overweighted towards one of the target variables (0 - healthy loans). If the consequences of misclassifications are severe, particularly false negatives, the company might require a model with higher recall, especially for the target variable 1.
 
+Logistic regression models are relatively interpretable and computationally efficient, which can be advantageous for deployment and maintenance in a production environment.
+
+Based on these considerations, the logistic regression model may be recommended for use by the company, particularly if the business context allows for a trade-off between precision and recall and if interpretability and scalability are important factors. However, it's essential to further evaluate the model's performance, particularly in terms of false negatives, and consider potential improvements or alternative models if necessary.
