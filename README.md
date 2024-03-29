@@ -43,14 +43,33 @@ Structure the report by using the report template that `Starter_Code.zip` includ
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms) - The method used on the original fitted data in this case is LogisticRegression model, which is a statistical method for predicting binary outcomes from data. This model can be used to predict which category or class a new data point should go into.
   
 2. <b>The results:</b> Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+   Machine Learning Model 1: Logistic Regression
+   -> For `0`:
+      * Precision: 100% of the instances classified as `0` were actually `0`.
+      * Recall: 99% of the actual `0` instances were correctly classified as `0`.
+      * F1-score: The harmonic mean of precision and recall for `0`.
+      * Support: There were 18765 instances of `0` in the dataset.
+   -> For `1`:
+      * Precision: 85% of the instances classified as `1` were actually `1`.
+      * Recall: 91% of the actual `1` instances were correctly classified as `1`.
+      * F1-score: The harmonic mean of precision and recall for `1`.
+      * Support: There were 619 instances of `1` in the dataset.
+  
+    -> The model achieved an accuracy of 99%. That is, out of all the instances in the dataset (both `0` and `1`), 99% were classified correctly by the model.
       
-
 3. <b>A summary:</b> Summarize the results from the machine learning model. Include the justification for recommending the model for use by the company. If the model is not recommended, the reasoning must be justified.
-* Which one seems to perform best? How do we know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-If none of the models are recommended, please justify the reasoning.
+    -> The number of True positives:
+       * For `0`: 18,577
+       * For `1`: 563
+    -> The number of False positives:
+       * For `0`: 0
+       * For `1`: 93
+    -> The number of True negatives:
+       * For `0`: 807
+       * For `1`: 18,728
+    -> The number of False negatives:
+       * For `0`: 17,958
+       * For `1`: 18,109
 
 As the data was highly overweighted towards one of the target variables (healthy loans).
 
