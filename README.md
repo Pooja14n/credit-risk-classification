@@ -57,19 +57,19 @@ Structure the report by using the report template that `Starter_Code.zip` includ
   
     -> The model achieved an accuracy of 99%. That is, out of all the instances in the dataset (both `0` and `1`), 99% were classified correctly by the model.
       
-3. <b>A summary:</b> Summarize the results from the machine learning model. Include the justification for recommending the model for use by the company. If the model is not recommended, the reasoning must be justified.
+3. <b>A summary:</b> Summarize the results from the machine learning model. Include the justification for recommending the model for use by the company. If the model is not recommended, the reasoning must be justified. <br>
     -> The number of True positives:
        * For `0`: 18,577
-       * For `1`: 563
+       * For `1`: 563 <br>
     -> The number of False positives:
        * For `0`: 0
-       * For `1`: 93
+       * For `1`: 93 <br>
     -> The number of True negatives:
        * For `0`: 807
-       * For `1`: 18,728
+       * For `1`: 18,728 <br>
     -> The number of False negatives:
        * For `0`: 17,958
-       * For `1`: 18,109
+       * For `1`: 18,109 <br>
 
 As the data was highly overweighted towards one of the target variables (healthy loans).
 
