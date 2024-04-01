@@ -76,3 +76,12 @@ There is a high imbalance of data as it is overweighted towards one of the targe
 Logistic regression models are relatively interpretable and computationally efficient, which can be advantageous for deployment and maintenance in a production environment.
 
 Based on these considerations, the logistic regression model may be recommended for use by the company, particularly if the business context allows for a trade-off between precision and recall and if interpretability and scalability are important factors. However, it's essential to further evaluate the model's performance, particularly in terms of false negatives, and consider potential improvements or alternative models if necessary.
+
+# References
+Referred to various class activity exercises, got support from Assistant Instructor, and websites: https://scikit-learn.org.
+
+# Files submitted including this README File
+-> credit-risk-classification Folder <br>
+a. Resources Folder -> lending_data.csv (contains the CSV file) <br>
+b. credit_risk_classification.ipynb (contains the srcipt) <br>
+c. report-template.md (Analysis Report is written using this report template)
